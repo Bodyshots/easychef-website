@@ -1,0 +1,132 @@
+.shop_title_bar {
+    margin: auto; /*Essential to center sections */
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 20px;
+    background: linear-gradient(24deg, rgba(230, 221, 171, 0.9), rgba(255, 255, 255, 0.8) 31.23%)!important;;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    position: absolute;
+}
+
+#shop_title {
+    margin-top: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: calc(max(calc(1.725rem + .9vw), 28.73px))
+
+}
+
+#shop_search {
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 100%;
+    position: relative;
+
+}
+
+#allingredientslst li { list-style-type: circle; }
+
+.shop_wrap {
+    width: 65%;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    border-radius: 20px!important;
+    background: linear-gradient(24deg, rgba(245, 246, 220, 0.87), rgba(255, 255, 255, 0.479) 91.23%)!important;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)!important;
+}
+
+#shop_items {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#search_btn {
+    display: flex;
+    margin: auto;
+}
+
+#allingredientstitle {
+    font-size: calc(max(calc(1.275rem + .3vw), 23.1px));
+}
+
+#allingredientslst { margin: 1em; }
+
+.shop_lst_btn {
+    color: black!important;
+    margin: auto;
+    transition: all 0.15s;
+    background: linear-gradient(24deg, rgba(245, 246, 220, 0.87), rgba(255, 255, 255, 0.479) 91.23%)!important;
+    border-color: rgba(0, 0, 0, 0.2)!important;
+}
+
+.shop_lst_btn:active { border: 1px solid!important; }
+
+.shop_lst_btn:hover { background: rgba(46, 44, 44, 0.1)!important; }
+
+#export_btn {
+    color: black;
+    margin: auto;
+    margin-bottom: 1em;
+    width: 90%;
+    border-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.15s;
+    margin-top: 0;
+    background: linear-gradient(24deg, rgba(245, 246, 220, 0.87), rgba(255, 255, 255, 0.479) 91.23%)!important;
+}
+
+#export_btn:active { border: 1px solid!important; }
+
+#export_btn:hover {
+    background: rgba(46, 44, 44, 0.1)!important;
+}
+
+.col-form-label { margin-right: 1em;}
+/* Some CSS code below from:
+https://www.youtube.com/watch?v=EpE6TU58cPw */
+
+.suggestions {
+    list-style: none;
+    border-top: 1px solid #d4d4d4;
+    background-color: #f7f7f7;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    padding-left: 0;
+  }
+
+#shopsearchresults {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#shopsearchsec {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+  
+.suggestions li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.suggestions li:first-child { border-radius: 10px 10px 0 0; }
+.suggestions li:last-child { border-radius: 0 0 10px 10px; }
+.suggestions li:hover { background-color: #d4d4d4; }
+.suggestions li:last-child:hover { background-color: #d4d4d4; }

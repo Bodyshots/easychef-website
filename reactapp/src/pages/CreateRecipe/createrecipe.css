@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+2&family=Courgette&family=Dancing+Script&family=Lobster+Two&display=swap');
+
+html {
+  background: linear-gradient(217deg, #e4bc84, rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgb(236, 192, 133), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, white, rgb(236, 192, 133) 70.71%);
+  /* background-color: #e8e4ce!important; */
+}
+
+#root {
+  background: linear-gradient(0deg, #f1b442, #e2b77b 87.71%),
+  linear-gradient(0deg, rgb(236, 192, 133), rgba(0,255,0,0) 1000.71%),
+  linear-gradient(336deg, white, rgb(236, 192, 133) 70.71%);
+  /* background-color: #e8e4ce!important; */
+}
+
+.createrecipeh {
+    padding: 1%;
+    margin: auto;
+    font-family: 'Courgette', cursive!important;
+    color: #ffffff;
+    text-align: center;
+}
+
+.createrecipecontainer {
+    max-width: 100%;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    width: fit-content;
+    background: linear-gradient(0deg, #f1b442, #e2b77b 87.71%),
+    linear-gradient(0deg, rgb(236, 192, 133), rgba(0,255,0,0) 1000.71%),
+    linear-gradient(336deg, white, rgb(236, 192, 133) 70.71%);
+    border-radius: 0.35rem 0.35rem 0.35rem 0.35rem;
+}
+  
+
+.recipeformgrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(493px, 1fr));
+}
+
+.formcard {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 10%);
+    background-color: #f8c86e !important;
+    padding-bottom: 2%;
+
+}
+
+.formcard .card-header {
+    font-weight: 500;
+    width: 100% !important;
+    border-color: transparent;
+}
+
+.formcard .card-header {
+    padding: 1rem 1.35rem;
+    margin-bottom: 0;
+    /*background-color: rgba(33, 40, 50, 0.03);*/
+    background-color: #886416 !important;
+    width: 100% !important;
+}
+
+.formcard .card-body {
+    background-color: #cb963b !important;
+    border-radius: 0.35rem 0.35rem 0.35rem 0.35rem;
+}
+
+.formrow {
+    padding: 1%;
+    margin: auto;
+    border-radius: 0.35rem 0.35rem 0.35rem 0.35rem;
+}
+
+.formcol {
+    padding: 1%;
+    border-radius: 0.35rem 0.35rem 0.35rem 0.35rem;
+}
+
+.createrecipe {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  border: transparent;
+  background: transparent;
+  font-weight: 600;
+  font-family: 'Baloo 2', cursive!important;
+  }
+  
+  .createrecipe::before {
+  margin-left: auto;
+  }
+  
+  .createrecipe::after, .createrecipe::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+  }
+  
+  .createrecipe:hover::after, .createrecipe:hover::before {
+  width: 100%;
+  }
+  

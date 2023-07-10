@@ -1,0 +1,15 @@
+#error_popup_container {
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    transition: all 0.15s;
+    font-family: 'Baloo 2', cursive!important;
+}
+
+.errorFadeIn { animation: 0.4s linear fadeIn; }
+
+@keyframes errorFadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}

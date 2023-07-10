@@ -1,0 +1,6 @@
+#adv_search_container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-family: 'Baloo 2', cursive!important;
+}

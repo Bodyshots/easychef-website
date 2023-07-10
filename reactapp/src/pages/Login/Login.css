@@ -1,0 +1,50 @@
+ .login { 
+   
+    font-family: 'Baloo 2', cursive!important;
+    color: #945921!important;
+    max-width: 36rem;
+    margin: auto; 
+    background-color: #e2b77b !important;
+    border-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.15s;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)!important;
+    border-radius: 8px;
+    margin-top: 11vh;
+    margin-bottom: 42vh;
+        
+        
+ } 
+
+.btn-login {
+    background-color: #945921!important;
+    border-color: #945921!important;
+    color: #e2b77b !important;
+    font-family: 'Baloo 2', cursive!important;
+    border-style: outset;
+}
+
+.btn-login:hover {
+    color: #945921!important;
+    background-color: #f1b442 !important;
+    border-color: #945921!important;
+}
+
+.login-container {
+    justify-content: center;
+}
+
+.loginError {
+    color: red !important;
+}
+
+.login-header {
+    background: linear-gradient(-11deg, #e2b77b, #f1b442  57.71%);
+}
+
+.login-field {
+    background: linear-gradient(24deg, rgba(245, 246, 220, 0.87), rgba(255, 255, 255, 0.479) 91.23%)!important;
+}
+
+.signup-link {
+    color: white;
+}

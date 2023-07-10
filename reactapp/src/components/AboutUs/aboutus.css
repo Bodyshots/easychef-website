@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+2&family=Courgette&family=Dancing+Script&family=Lobster+Two&display=swap');
+
+@media screen and (min-width: 992px) { /* CSS here will only apply if
+    screen is at least 750px wide*/
+}
+
+#about_us_title {
+    padding-top: 1em;
+}
+
+.about_us_text {
+    padding: 1.5em!important;
+}
+
+.about_us_text_sec {
+    margin: auto!important;
+    padding-top: 0em!important;
+    justify-content: center!important;
+    display: flex!important;
+    align-items: center!important;
+    flex-flow: column!important;
+    border-bottom-left-radius: 20px!important;
+    border-top-left-radius: 20px!important;
+    background-color: white!important;
+    font-family: 'Baloo 2', cursive!important;
+    background: linear-gradient(-11deg, #f1b442, #e2b77b 57.71%);
+}
+
+.center {
+    text-align: center;
+}
+
+.about_us {
+    margin: auto!important;
+    justify-content: center!important;
+    width: 70%;
+    display: flex!important;
+    flex-flow: row!important;
+    min-width: 610px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px!important;
+}
+
+.about_us_pic_sec {
+    font-family: 'Courgette', cursive!important;
+    font-size: 50px!important;
+    color: #f5b506!important;
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    background-attachment: fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/aboutuspic.jpg);
+    background-position: center;
+    /* margin-bottom: 0.62em!important; */
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: 2048px 1367px;
+    min-width: 290px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#about_us_text {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#about_us_pic {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: fill;
+    overflow: hidden
+}

@@ -1,0 +1,40 @@
+/* Some Popup code from:
+https://github.com/Ziratsu/React-modal-yt/blob/main/src/Components/Modal/Modal.js */
+
+#add_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.15s;
+    opacity: 0.8;
+}
+
+.btn-primary#add_card:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+body.active_addshopitem_popup {
+    overflow-y: hidden!important;
+}
+
+#addshoprecipe_modal {
+    max-width: none;
+    margin: auto;
+    margin-top: 2em;
+    /* margin: var(--bs-modal-margin); */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo 2', cursive!important;
+}
+
+#addshoprecipe_modal_footer {
+    justify-content: center;
+}
+
+.addshoprecipe_content {
+    background-color: white!important;
+    background: linear-gradient(24deg, rgba(230, 221, 171, 1), rgb(255, 255, 255) 100.3%)!important;
+}

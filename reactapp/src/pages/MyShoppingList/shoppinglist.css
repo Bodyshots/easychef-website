@@ -1,0 +1,9 @@
+#shop_page_container {
+    min-width: 870px;
+    font-family: 'Baloo 2', cursive!important;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin: 2em 0em;
+    min-height: 100vh;
+}

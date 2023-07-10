@@ -1,0 +1,103 @@
+/* Most Card CSS from: https://www.youtube.com/watch?v=FLt2TveqHQM */
+
+.card_text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    margin: auto;
+}
+
+.recipecard {
+    border: 1px solid #fff!important;
+    background: linear-gradient(-11deg, #99520f, #d8aa69 37.71%);
+    border-radius: 8px!important;
+    overflow: hidden!important;
+
+    height: 400px!important;
+    color: #fff!important;
+    cursor: pointer!important;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    font-family: 'Baloo 2', cursive!important;
+    transition: all 0.15s;
+}
+
+
+/* gradient css from https://keithjgrant.com/posts/2017/07/transitioning-gradients/ */
+.gradient {
+    position: relative;
+    min-height: 200px;
+    background-image: linear-gradient(
+      to right,
+      hsl(39, 69%, 53%),
+      hsl(27, 49%, 49%)
+    );
+    z-index: 1;
+  }
+  
+  .gradient::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(
+      to bottom,
+      hsl(39, 79%, 59%),
+      hsl(27, 73%, 40%)
+
+    );
+    z-index: -1;
+    transition: opacity 0.15s linear;
+    opacity: 0;
+  }
+  .gradient:hover::before {
+    opacity: 1;
+  }
+
+.recipecard:hover {
+    transition: all 0.15s;
+    background: linear-gradient(-11deg, #cc9663, #e7c596 37.71%);
+}
+
+#card_desc {
+    margin-top: 1.2em!important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    flex-flow: row wrap;
+}
+
+.recipecard-top h1 {
+    font-size: 0.9rem!important;
+    margin: 20px!important;
+}
+
+.recipecard-top > img {
+    width: 100%!important;
+    height: 200px!important;
+    object-fit: cover!important;
+    background: black!important;
+}
+
+.recipecard-bottom {
+    margin: 10px 20px!important;
+}
+
+.recipecat {
+    position: relative!important;
+}
+
+.recipecat::before {
+    content: ''!important;
+    background: rgb(235, 201, 107)!important;
+    position: absolute!important;
+    top: calc(100% + 10px)!important;
+    left: 0!important;
+    right: 0!important;
+    height: 2px!important;
+}

@@ -1,0 +1,30 @@
+/* Base carousel code from: https://www.youtube.com/watch?v=FLt2TveqHQM */
+
+.recipecarousel {
+    width: 90%!important;
+    margin: auto;
+}
+
+.slick-slide > div {
+    margin: 0 10px!important;
+}
+
+.slick-prev { left: -2.7rem; }
+
+.slick-prev:before {
+    font-size: 35px;
+}
+
+.slick-next {right: -1.5rem; }
+
+.slick-next:before { font-size: 35px; }
+
+#none_recipecarousel {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 3em auto;
+    width: 100%;
+    height: 100%;
+}

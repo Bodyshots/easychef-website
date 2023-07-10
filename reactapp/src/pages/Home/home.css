@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+2&family=Courgette&family=Dancing+Script&family=Lobster+Two&display=swap');
+
+#home_page_container{
+    min-height: 100vh;
+}
+
+html {
+    background: linear-gradient(217deg, #e4bc84, rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgb(236, 192, 133), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, white, rgb(236, 192, 133) 70.71%);
+    /* background-color: #e8e4ce!important; */
+}
+
+#root {
+    background: linear-gradient(0deg, #f1b442, #e2b77b 87.71%),
+    linear-gradient(0deg, rgb(236, 192, 133), rgba(0,255,0,0) 1000.71%),
+    linear-gradient(336deg, white, rgb(236, 192, 133) 70.71%);
+    /* background-color: #e8e4ce!important; */
+}
+
+#home_pic_sec {
+    font-family: 'Courgette', cursive!important;
+    width: 100%;
+    max-width: 100%;
+    font-size: 30px;
+    height: 35em;
+    text-align: center;
+    overflow: hidden;
+
+    background-color: black;
+    margin-bottom: 3em;
+    object-fit: fill;
+}
+
+#homepic {
+    transform: translateX(30%) translateY(15%) scale(2);
+    color: black;
+    
+}
+
+#homepic_overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    max-height: 100%;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#homepic_overlay #homepic {
+    opacity: 0.2;
+}
+
+#text_home_logo {
+    display: flex;
+    justify-content: center;
+}
+
+#text_home_overlay {
+    font-family: 'Courgette', cursive!important;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    color:white;
+    margin: auto;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+    font-size: 100px!important;
+    height: 100%;
+    justify-content: center;
+}
+
+#aboutbtn {
+    margin-top: 0.7em;
+    border: 0px;
+    font-size: 30px;
+    color:rgba(255, 255, 255, 0.6);
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out;
+    font-family: 'Baloo 2', cursive!important;
+}
+
+#aboutbtn:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+#hometextbox {
+    border-color: white;
+    border: 1px;
+    font-family: 'Courgette', cursive!important;
+}
+
+#text_home_subtitle {
+    font-size: 35px!important;
+    margin-top: 1em;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Lobster Two', italic;
+}
+
+#homepic_container {
+    height: 100%;
+    max-height: 100%;
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+
+#featuredtitle {
+    font-size: 25px!important;
+    justify-content: center!important;
+    display: flex!important;
+    align-items: center!important;
+    flex-flow: column nowrap!important;
+    text-align: center!important;
+    padding-bottom: 2em;
+    font-family: 'Baloo 2', cursive!important;
+    font-size: 20px!important;
+}
+
+#featuredtitle h1 {
+    font-size: 50px!important;
+}
+#featuredtitle h5 {
+    font-size: 25px!important;
+}
+
+#featuredsubtitle {
+    margin-top: 0.5em!important;
+    color: black!important;
+    font-size: calc(1rem + 0.2vw)!important; /*Original (h5): 1.25rem - not responsive */
+}
+
+#about_us_sec {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* position: absolute; */
+    min-height: 100%;
+    padding: 2em 0;
+    background: linear-gradient(217deg, rgba(156, 100, 60,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(204, 155, 101,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(244, 175, 109,.8), rgba(0,0,255,0) 70.71%);
+}
+
+#home_anecdote {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5em 1.5em;
+    font-family: 'Lobster Two', italic;
+    font-size: calc(1.375rem + 1.5vw);
+    margin-bottom: 1em;
+}
+#home_quote_text {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+#home_quote_person {
+    font-family: 'Baloo 2', cursive!important;
+    font-size: 1.25rem;
+}
+
+#homesearch_sec {
+    font-family: 'Baloo 2', cursive!important;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    object-fit: fill;
+    height: 60vh;
+    max-width: 100%;
+    background: linear-gradient(127deg, rgba(241, 227, 152, 0.9), rgba(0, 0, 0, 0.8) 95.71%);
+}
+
+#homesearch_title {
+    font-size: 70px!important;
+    padding: 0.2em 0em;
+}
+
+#homesearch_overlay {
+    height: 100%;
+    max-height: 100%;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+#homesearch_overlay #homesearch {
+    opacity: 0.2;
+}
+
+#homesearch_box_overlay {
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    color:white;
+    margin: auto;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+    font-size: 100px!important;
+    height: 100%;
+    justify-content: center;
+}
+
+#homesearch {
+    transform: scale(2.3);
+}

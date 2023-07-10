@@ -1,0 +1,18 @@
+#adv_filters {
+    width: 25%;
+    margin: 2em 1em;
+    height: 60%;
+    background: linear-gradient(24deg, hsl(42, 49%, 74%), hsl(39.09,76.74%,83.14%) 91.23%)!important;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)!important;
+    border-radius: 20px;
+    padding: 2em;
+}
+
+.filters_desc {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#gen_filter_desc{
+    margin-bottom: 0.8em;
+}

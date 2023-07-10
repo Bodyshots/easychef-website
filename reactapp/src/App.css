@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+2&family=Courgette&family=Dancing+Script&family=Lobster+Two&display=swap');
+#footer_container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0.7em;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    position: relative;
+}
+
+#footer {
+    opacity: 0.8;
+    margin: 0;
+}

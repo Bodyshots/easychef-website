@@ -1,0 +1,106 @@
+/* All CSS code below (w/ some modifications) from:
+https://codesandbox.io/s/9m0l4?file=/src/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+2&family=Courgette&family=Dancing+Script&family=Lobster+Two&display=swap');
+
+.navsearchbar {
+    max-width: 200px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background: #945921;
+    border-radius: 20px;
+    margin-right: 1em;
+    margin-left: 0.7em;
+    margin-bottom: 0.5em;
+    margin-top: 0.7em;
+    font-family: 'Baloo 2', cursive!important;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+#navbarsearch {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navsearchbar.fadeOutWidth {
+    width: 30px;
+}
+
+.navsearchbar.fadeInWidth {
+    width: 200px;
+}
+  
+.fadeInWidth { animation: 0.2s linear fadeInWidth; }
+.fadeOutWidth { animation: 0.2s linear fadeOutWidth; }
+.fadeIn { animation: 0.4s linear fadeIn; }
+.fadeOut { animation: 0.6s linear fadeOut; }
+  
+.navsearch-input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    padding: 0px 15px;
+    transition: width 0.4s linear;
+    caret-color: white;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    width: 100%;
+}
+
+.navsearch-input.fadeIn::placeholder { color: white; }
+
+.navsearch-icon {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: small;
+}
+
+.navsearchicon-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+.navsearchicon-bg:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@keyframes fadeInWidth {
+    0% { width: 30px; }
+    100% { width: 200px; }
+}
+@keyframes fadeOutWidth {
+    0% { width: 200px; }
+    100% { width: 30px; }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+  

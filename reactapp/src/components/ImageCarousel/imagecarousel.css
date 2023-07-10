@@ -1,0 +1,11 @@
+.mediacarousel {
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.mediaincarousel {
+    height: 400px !important;
+    width: 400px !important; 
+    text-align: center;
+}

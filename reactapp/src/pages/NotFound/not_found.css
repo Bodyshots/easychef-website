@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+2&family=Courgette&family=Dancing+Script&family=Lobster+Two&display=swap');
+
+#not_found_container {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Baloo 2', cursive!important;
+    text-align: center;
+    flex-flow: column;
+}
+
+#not_found_title {
+    font-size: 70px;
+}

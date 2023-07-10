@@ -1,0 +1,39 @@
+
+#viewprofile-page-body {
+    font-family: 'Baloo 2', cursive!important;
+    max-width: 1320px;
+    border-radius: 8px;
+    justify-content: center !important;
+    color: #945921!important;
+    border-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.15s;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    background: linear-gradient(24deg, rgba(245, 246, 220, 0.87), rgba(255, 255, 255, 0.479) 91.23%)!important;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)!important;
+}
+
+#viewprofile-recipes {
+    padding-top: 10px;
+    font-family: 'Baloo 2', cursive!important;
+    color: #945921!important;
+    margin-bottom: 50px;
+    justify-content: center !important;
+    
+}
+
+.viewprofile-img {
+    border: 5px solid #945921;
+}
+
+.viewprofile-col {
+    padding-top: 5vh;
+    padding-right:0;
+    padding-left:0 !important;
+    margin-right: 10vh;
+}
+
+.viewprofile-bio {
+    margin-top: 40px !important;
+}

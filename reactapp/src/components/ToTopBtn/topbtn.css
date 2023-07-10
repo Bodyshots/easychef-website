@@ -1,0 +1,21 @@
+#topbtn {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    opacity: 1;
+    transition: opacity .15s;
+    background: linear-gradient(-11deg, #99520f, #d8aa69 37.71%);
+}
+
+#topbtn:hover {
+    opacity: 0.7;
+}

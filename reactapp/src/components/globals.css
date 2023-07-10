@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+/* Plus icon from https://stackoverflow.com/questions/55281672/make-plus-symbol-in-css */
+.plus {
+    --b: 5px!important; /* the thickness */
+    width: 40px!important; /* the size */
+    aspect-ratio: 1!important;
+    border: 10px solid grey!important; /* the outer space */
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),grey 90deg,#fff 0) 
+      calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ /*Vertical line*/
+      calc(50%  + var(--b))   calc(50%  + var(--b))!important; /*Horizontal line*/
+    display: inline-block!important;
+  }
+
+.radius {
+    border-radius: 50%!important;
+    width: 10em!important;
+    height: 10em!important;
+}
+
+.plus.radius {
+    margin: 1.5em!important;
+    width: 3em!important;
+    height: 3em!important;
+}
+
+.trans_back {
+    background-color: rgba(0, 0, 0, 0)!important;
+    border: 0!important;
+}

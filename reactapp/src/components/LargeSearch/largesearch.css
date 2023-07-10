@@ -1,0 +1,41 @@
+/* CSS code from https://uiverse.io/joe-watson-sbf/shy-snake-4 */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+2&family=Courgette&family=Dancing+Script&family=Lobster+Two&display=swap');
+
+#largesearch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Baloo 2', cursive!important;
+  }
+  
+#largesearch_input {
+    font-family: inherit;
+    font-size: 35px;
+    background-color: #f4f2f2;
+    border: none;
+    color: #646464;
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    width: 12em;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+  }
+  
+#largesearch_input:hover, #largesearch_input:focus {
+    box-shadow: 0 0 1em #00000013;
+}
+  
+#largesearch_input:focus {
+    outline: none;
+    background-color: #f0eeee;
+}
+
+#largesearch_input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+}
+
+#largesearch_input:focus {
+    background-color: #f0eeee;
+}

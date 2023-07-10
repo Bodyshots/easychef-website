@@ -1,0 +1,94 @@
+/* Based off of template found at https://www.bootdey.com/snippets/view/bs5-edit-profile-account-details#css
+*/
+body{/*margin-top:20px;*/
+    min-width: 992px;
+    background-color: #e8e4ce !important;
+}
+
+#page-body {
+    max-width: 1320px;
+    border-radius: 8px;
+    justify-content: center !important;
+    color: #945921!important;
+    border-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.15s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(24deg, rgba(245, 246, 220, 0.87), rgba(255, 255, 255, 0.479) 91.23%)!important;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)!important;
+    font-family: 'Baloo 2', cursive!important;
+}
+
+.edit-profile-title {
+    padding-top: 8px;
+}
+.details-box {
+    color: #945921!important;
+    margin-left: 0.5em!important;
+    font-family: 'Baloo 2', cursive!important;
+    
+}
+
+#profilegrid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(493px, 1fr));
+}
+
+.grid-row-span-2 {
+    grid-row: span 2;
+}
+
+#password-card {
+    margin-top: 1em;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+    width: 20em;
+    height: 20em;
+}
+
+.form-control, .dataTable-input {
+    display: block;
+    width: 100%;
+    border-radius: 0.35rem;
+    
+}
+
+.btn-profile {
+    background-color: #945921!important;
+    border-color: #945921!important;
+    color: #e2b77b !important;
+    font-family: 'Baloo 2', cursive!important;
+    border-style: outset;
+}
+
+.btn-profile:hover {
+    color: #945921!important;
+    background-color: #f1b442 !important;
+    border-color: #945921!important;
+}
+
+.editprofile {
+    background-color: #e2b77b !important;
+    border-width: 10px;
+}
+
+.edit-header {
+    background: linear-gradient(-11deg, #e2b77b, #f1b442  57.71%);
+    color: #945921!important;
+    font-family: 'Baloo 2', cursive!important;
+
+}
+#selectedFile {
+    display: none;
+}
+
+.profile-field {
+    background: linear-gradient(24deg, rgba(245, 246, 220, 0.87), rgba(255, 255, 255, 0.479) 91.23%)!important;
+}
+
+.editprofile-error {
+    color: red;
+}

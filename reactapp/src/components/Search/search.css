@@ -1,0 +1,13 @@
+#searchsec {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+#searchbar {
+    width: 100%;
+    position: relative;
+}
